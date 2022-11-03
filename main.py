@@ -254,7 +254,7 @@ class Zlapp(Fudan):
                         "geo_api_info": new_g,
                     }
                 )
-            # print(self.last_info)
+            print(self.last_info)
             save = self.session.post(
                 'https://zlapp.fudan.edu.cn/ncov/wap/fudan/save',
                 data=self.last_info,
